@@ -2,7 +2,7 @@
  * @Author: xulei
  * @Date: 2020-07-26 15:44:58
  * @LastEditors: xulei
- * @LastEditTime: 2020-07-26 15:57:06
+ * @LastEditTime: 2020-07-26 17:54:56
  * @FilePath: \gitBook\installation\installation.md
 --> 
 # 安装
@@ -17,8 +17,8 @@
 &emsp;&emsp;![npmGitbookCli](/imgs/npmGitbookCli.png)
 
 ```js
-  gitbook fetch 3.0.0 // 安装指定版本
-  gitbook -V   // 查看版本号：检测是否安装成功
+gitbook fetch 3.0.0 // 安装指定版本
+gitbook -V   // 查看版本号：检测是否安装成功
 ```
 
 &emsp;&emsp;![gitbookFetch](/imgs/gitbookFetch_1.png)

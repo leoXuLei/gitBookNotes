@@ -60,7 +60,7 @@ gitbook ls-remote  // 列出NPM上的可用版本：
 └─chapter2
         README.md
 ```
-&emsp;&emsp;![gitbookInit](/imgs/gitbookInit.png)
+![gitbookInit](/imgs/gitbookInit.png)
 
 注意：好像 `gitbook init` 只支持两级目录！
 
