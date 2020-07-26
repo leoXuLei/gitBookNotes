@@ -11,10 +11,13 @@
 
 ## 登录并新建space
 space：项目
+
 ![gitBookComSpaces](/imgs/gitBookComSpaces.png)
+
 ## 关联GitHub
 
 * **选择关联仓库类型：public**
+
 ![linkGitHubRepo](/imgs/linkGitHubRepo.png)
 
 * **选择要关联的仓库**
@@ -27,15 +30,19 @@ space：项目
 ![linkGitHubRepoSelectBranch](/imgs/linkGitHubRepoSelectBranch.png)
 
 * **首次同步时的方式**
+
 ![linkGitHubRepoFirstSync](/imgs/linkGitHubRepoFirstSync.png)
 
 * **关联中**
+
 ![linkingGitHubRepo](/imgs/linkingGitHubRepo.png)
 
 * **书籍编辑界面**
+
 ![linkedGitHubRepo](/imgs/linkedGitHubRepo.png)
 
 * **获取GitBook的访问连接**
+
 ![shareLink](/imgs/shareLink.png)
 
 * **预览效果**<br>

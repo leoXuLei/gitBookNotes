@@ -9,7 +9,7 @@
 
 
 ## 创建仓库
-&emsp;&emsp;![gitCreateRepo](/imgs/gitCreateRepo.png)
+![gitCreateRepo](/imgs/gitCreateRepo.png)
 
 
 ## 本地项目与GitHub关联

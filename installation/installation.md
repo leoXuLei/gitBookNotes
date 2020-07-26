@@ -2,7 +2,7 @@
  * @Author: xulei
  * @Date: 2020-07-26 15:44:58
  * @LastEditors: xulei
- * @LastEditTime: 2020-07-26 17:54:56
+ * @LastEditTime: 2020-07-26 18:43:39
  * @FilePath: \gitBook\installation\installation.md
 --> 
 # 安装
@@ -14,22 +14,22 @@
 
 > `gitbook-cli` 是gitbook的一个命令行工具，通过它可以安装和管理gitbook的多个版本。
   
-&emsp;&emsp;![npmGitbookCli](/imgs/npmGitbookCli.png)
+![npmGitbookCli](/imgs/npmGitbookCli.png)
 
 ```js
 gitbook fetch 3.0.0 // 安装指定版本
 gitbook -V   // 查看版本号：检测是否安装成功
 ```
 
-&emsp;&emsp;![gitbookFetch](/imgs/gitbookFetch_1.png)
+![gitbookFetch](/imgs/gitbookFetch_1.png)
 
 安装完成，检查是否安装成功。
 
-&emsp;&emsp;![gitbookFetch](/imgs/gitbookFetch_2.png)
+![gitbookFetch](/imgs/gitbookFetch_2.png)
 
 gitbook查询命令如下：
 
-&emsp;&emsp;![gitbookCommand](/imgs/gitbookCommand.png)
+![gitbookCommand](/imgs/gitbookCommand.png)
 
 **注意**
   * 执行 `npm i gitbook-cli -g` 后，执行 `gitbook -V` 时检测到已安装gitbook-cli、未安装gitbook，并自动开始安装最新版本gitbook。
