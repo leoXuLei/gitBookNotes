@@ -2,7 +2,7 @@
  * @Author: xulei
  * @Date: 2020-07-26 15:44:58
  * @LastEditors: xulei
- * @LastEditTime: 2020-07-26 16:01:04
+ * @LastEditTime: 2020-07-26 18:47:42
  * @FilePath: \gitBook\basicUse\basicUse.md
 --> 
 
@@ -90,7 +90,7 @@ Serving book on http://localhost:4000
 > * `gitbook serve`： 命令实际上会首先调用 `gitbook build` 编译书籍，完成后会打开一个 web 服务器，通过`http://localhost:4000/`可以预览书籍。
 > * `gitbook build`： 运行该命令后会在根目录中生成一个 `_book` 文件夹， 里面的内容即为生成的 html 文件，仅使用该命令用来生成网页而不开启服务器
 
-&emsp;&emsp;![gitbookServe](/imgs/gitbookServe.png)
+![gitbookServe](/imgs/gitbookServe.png)
 
 
 现在，gitbook为我们创建了书籍目录结构后，就可以向其中添加真正的内容了，文件的编写使用 **markdown 语法**，在文件修改过程中，每一次保存文件，gitbook serve 都会**自动重新编译**，所以可以持续通过浏览器来查看最新的书籍效果！
