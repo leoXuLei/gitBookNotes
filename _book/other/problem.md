@@ -2,7 +2,7 @@
  * @Author: xulei
  * @Date: 2020-07-26 22:34:10
  * @LastEditors: xulei
- * @LastEditTime: 2020-08-02 11:25:05
+ * @LastEditTime: 2020-08-02 14:44:59
  * @FilePath: \gitBook\other\problem.md
 --> 
 # 问题
@@ -146,3 +146,12 @@ Serving book on http://localhost:4000
 效果如下：
 ![problemCodeStyleResolved](/imgs/problemCodeStyleResolved.png)
 
+## 发布后打赏图片404问题
+发布到 `GitHub Pages` 后发现打赏图片404问题，如下：
+![gitBookPluginDonateImgProblem](/imgs/gitBookPluginDonateImgProblem.png)
+
+发现打赏图片地址有问题：`https://leoxulei.github.io/imgs/weixin.png`
+
+正常显示的都是在MD文件中引入的，图片地址格式为：`https://leoxulei.github.io/gitBookNotes/imgs/xxx.png`
+
+修改后重新发布到 `GitHub Pages`，问题解决。

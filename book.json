@@ -71,8 +71,8 @@
         "copyButtons": true
     },
     "donate": {
-        "wechat": "/imgs/weixin.png",
-        "alipay": "/imgs/alipay.png",
+        "wechat": "/gitBookNotes/imgs/weixin.png",
+        "alipay": "/gitBookNotes/imgs/alipay.png",
         "title": "",
         "button": "打赏",
         "alipayText": "支付宝",
