@@ -1,0 +1,8 @@
+.markdown-section p code, 
+.markdown-section ul code {
+  color: #c7254e;
+}
+
+.markdown-section strong {
+  color: rgba(0, 0, 0, 1)
+}
