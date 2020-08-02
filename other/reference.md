@@ -18,8 +18,6 @@
 * [本地Gitbook安装和使用（windows下） 插件](https://www.jianshu.com/p/bfb2ad8376bf)
 * [Github和GitBook使用](https://www.jianshu.com/p/925745669c6c)
 
-* [GitBook使用教程  插件](https://www.cnblogs.com/zhang-jun-jie/articles/11553675.html)
-  
 * [使用GitHub与Gitbook制作自己的书籍](https://www.dazhuanlan.com/2019/10/23/5daf7eb7ee720/)
 
 * [gitbook.com 官网操作](https://snowdreams1006.github.io/myGitbook/experience/gitbook-com.html)
