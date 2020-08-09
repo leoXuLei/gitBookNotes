@@ -2,7 +2,7 @@
  * @Author: xulei
  * @Date: 2020-07-26 22:34:10
  * @LastEditors: xulei
- * @LastEditTime: 2020-08-02 14:44:59
+ * @LastEditTime: 2020-08-09 12:30:51
  * @FilePath: \gitBook\other\problem.md
 --> 
 # 问题
@@ -155,3 +155,17 @@ Serving book on http://localhost:4000
 正常显示的都是在MD文件中引入的，图片地址格式为：`https://leoxulei.github.io/gitBookNotes/imgs/xxx.png`
 
 修改后重新发布到 `GitHub Pages`，问题解决。
+
+## gitbook serve 报错问题
+编辑好了README.md和 SUMMARY.md，然后运行gitbook init，这时候生成了目录下对应的文件结构，接着运行gitbook serve 开始编译，检测环境是否正常。 然而这时候突然报错：
+
+`Error: ENOENT: no such file or directory……/_book/gitbook/gitbook-plugin-livereload/plugin.js`
+
+解决方法：
+找到如下文件
+
+`C:\Users\你的用户名\.gitbook\versions\3.2.3\lib\output\website\copyPluginAssets.js`
+
+然后找到这个文件里面的所有的confirm配置项（一共2处），将原来的值true更改为false。重新编译，不再报错。
+
+[gitserve后报错问题](https://www.cnblogs.com/liuting-1204/p/12742830.html)
