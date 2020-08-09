@@ -2,7 +2,7 @@
  * @Author: xulei
  * @Date: 2020-07-26 22:34:10
  * @LastEditors: xulei
- * @LastEditTime: 2020-08-09 12:30:51
+ * @LastEditTime: 2020-08-09 16:06:07
  * @FilePath: \gitBook\other\problem.md
 --> 
 # 问题
@@ -169,3 +169,11 @@ Serving book on http://localhost:4000
 然后找到这个文件里面的所有的confirm配置项（一共2处），将原来的值true更改为false。重新编译，不再报错。
 
 [gitserve后报错问题](https://www.cnblogs.com/liuting-1204/p/12742830.html)
+
+## gitignore 忽略文件
+```
+/book-end
+/node_modules
+package-lock.json
+```
+`book-end`作为gh-pages分支因此忽略，`package.lock.json`上传到GitHub 会报安全警告也忽略。
